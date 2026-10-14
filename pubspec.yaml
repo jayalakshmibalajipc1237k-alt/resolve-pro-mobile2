@@ -1,0 +1,24 @@
+name: resolve_pro_mobile
+description: Industry-Standard 32-Bit Float Node-Based Mobile Color Grading Workstation.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.1.2
+  path_provider: ^2.1.4
+  gal: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  shaders:
+    - shaders/resolve_color_pipeline.frag
